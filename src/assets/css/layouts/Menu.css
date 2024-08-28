@@ -1,0 +1,55 @@
+.menuList {
+  position: fixed;
+  bottom: 15%;
+  right: -96px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 11px 10px;
+  border-radius: 6px 0px 0px 6px;
+  background: #282828;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  transition: all 0.5s;
+}
+
+.menuList:hover {
+  right: 0px;
+}
+
+.menuItem {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menuItem .link {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menuItem .link {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.topMenuWrapper {
+    bottom: 5%;
+    right: 20px;
+    position: fixed;
+}
+
+.topMenu {
+  cursor: pointer;
+}

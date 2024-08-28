@@ -1,0 +1,85 @@
+.introWrapper{
+    margin: auto;
+    min-width: 1400px;
+    background-image: url("@/assets/images/HomeIntroBackGround.jpg");
+}
+.introContents{
+    width: 1400px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.logoContainer{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    gap: 10px;
+}
+.introLogo{
+    width: 80px;
+    height: 57px;
+    object-fit: cover;
+}
+.textContainer{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.introBtn{
+    width:168px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid #B51717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px auto 0px auto;
+}
+.introBtn:hover{
+    font-weight: 800;
+    border: 2px solid #B51717;
+    color: #B51717;
+}
+
+
+.infiniteImgWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+.imgContainer{
+    width: calc(260px * 5);
+    height: 304px;
+    display: flex;
+    transition: all 1s linear;
+    animation: infiniteMove 42s linear infinite;
+}
+.imgBox{
+    margin-top: 40px;
+    width: 260px;
+    height: 260px;
+}
+.infiniteImg{
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+}
+
+@keyframes infiniteMove{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-260px * 5));
+    }
+}

@@ -1,0 +1,204 @@
+.wrapper {
+  margin: 0 auto 110px;
+  width: 1364px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.desc {
+  margin-top: 15px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #434343;
+  border-bottom: 5px solid #333333;
+}
+
+.strong {
+  font-weight: 600;
+  color: #000;
+}
+
+.innerWrapper {
+  margin-top: 32px;
+  display: flex;
+  gap: 34px;
+}
+
+.contentWrapper {
+  flex-grow: 1;
+}
+
+.pickedWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.orderWrapper {
+  margin-top: 100px;
+}
+
+.orderTitle {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.orderTable {
+  display: grid;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  grid-template-columns: 132px 1fr;
+  grid-template-rows: repeat(1fr, 3);
+  text-align: center;
+  align-items: center;
+}
+
+.tableLeftCell {
+  padding: 15px 27px;
+}
+
+.tableRightCell {
+  padding: 20px 27px;
+  text-align: left;
+}
+
+.paymentMethodCheckboxesWrapper {
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
+}
+
+.recipientWrapper {
+  margin-top: 100px;
+}
+
+.recipientTitle {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.recipientTable {
+  display: grid;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  grid-template-columns: 132px 1fr;
+  grid-template-rows: repeat(1fr, 3);
+  text-align: center;
+  align-items: center;
+}
+
+.recipientCheckboxesWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.paymentMethodWrapper {
+  margin-top: 100px;
+}
+
+.paymentMethodTitle {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.paymentMethodCheckboxesWrapper {
+  display: flex;
+  align-items: center;
+  padding: 32px 15px;
+  font-size: 16px;
+  gap: 30px;
+}
+
+.paymentMethodCheckboxWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.phoneNumberWrapper {
+  padding: 8px 15px 8px 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #8c8c8c;
+  width: 449px;
+}
+
+.phoneNumber {
+  border: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.phoneNumber::placeholder {
+  color: #a4a4a4;
+}
+
+.phoneNumber:focus {
+  outline: none;
+}
+
+.phoneNumberBtn {
+  padding: 8px 12px;
+  border-radius: 3px;
+  border: 1px solid #8c8c8c;
+  background-color: #fff;
+  flex-shrink: 0;
+  color: #5e5e5e;
+  font-size: 14px;
+}
+
+.addressWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.address {
+  display: flex;
+  gap: 10px;
+}
+
+.signupBtn {
+  border-radius: 5px;
+  background: #111;
+  padding: 16px 30px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.duplicatedBtn {
+  margin-left: 11px;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dropDownWrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 14px;
+  width: 143px;
+  padding: 16px 10px;
+  border-radius: 5px;
+  border: 1px solid #8c8c8c;
+}
+
+.telWrapper {
+  display: flex;
+  gap: 10px;
+}

@@ -1,0 +1,91 @@
+.wrapper{
+}
+
+.newsBox{
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border-bottom: 1px solid #4D4D4D;
+    padding: 0px 15px 15px 15px;
+}
+.header .title{
+    font-size: 26px;
+    font-weight: 800;
+}
+.header .more{
+    font-size: 14px;
+    font-weight: 500;
+    color: #666666;
+}
+
+.list{
+}
+.listItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    height: 80px;
+    padding: 0px 15px;
+    border-bottom: 1px solid #C6C6C6;
+    cursor: pointer;
+    background-color: white;
+}
+.listItem:hover{
+    background-color: #FAFAFA;
+}
+.date{
+    color: #9EA1A2;
+    font-size: 14px;
+}
+
+
+
+.contactBox{
+    background-color: #FAFAFA;
+    border-radius: 10px;
+}
+.box{
+    padding: 40px 0px;
+    margin: 40px 15px 0px 15px;
+}
+.callName{
+    font-size: 18px;
+    font-weight: 600;
+}
+.callNum{
+    margin-top: 5px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.detail{
+    margin-top: 5px;
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.3;
+}
+.btnBox{
+    margin-top: 10px;
+    display: flex;
+    gap:5px;
+}
+.btn{
+    width: 100px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222222;
+    border: 1px solid #222222;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.btn:hover{
+    font-weight: 800;
+    border: 2px solid #A70000;
+    color: #A70000;
+}

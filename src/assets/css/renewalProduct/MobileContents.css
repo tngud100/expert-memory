@@ -1,0 +1,21 @@
+.textWrapper{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 20px auto;
+}
+.text{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.productWrapper{
+    padding: 0px 15px;
+}
+.productList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,31 @@
+.footer {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  cursor: pointer;
+  padding: 16px;
+}
+
+.paginationList {
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.paginationItem {
+  cursor: pointer;
+  color: #9F9F9F;
+  padding: 16px;
+}
+
+.active {
+  color: black;
+}

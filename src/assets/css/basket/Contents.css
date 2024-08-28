@@ -1,0 +1,87 @@
+.wrapper {
+  margin: 61px auto 110px;
+  width: 1364px;
+}
+
+.title {
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 1px solid #454545;
+}
+
+.notContentWrapper {
+  margin: 261px 0 301px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notContentDesc {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.continueBtn {
+  margin-top: 20px;
+  width: 160px;
+  height: 48px;
+  border-radius: 5px;
+  border: 1px solid #9c9c9c;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contentWrapper {
+  display: flex;
+  gap: 34px;
+}
+
+.pickedWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 12px;
+}
+
+.header {
+  padding: 24px 0 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSide {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.rightSide {
+  display: flex;
+  gap: 10px;
+}
+
+.commonBtn {
+  font-size: 14px;
+  padding: 9px 13px;
+  border-radius: 5px;
+  border: 1px solid #cbcbcb;
+}
+
+.pickedContentWrapper{
+}
+.picked{
+  margin: 6px 0px;
+}
+
+.hidden{
+  display: none;
+}
+
+
+.paymentInfoWrapper {
+  margin-top: 83px;
+}

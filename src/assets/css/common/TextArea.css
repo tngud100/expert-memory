@@ -1,0 +1,60 @@
+.label{
+    width: 155px;
+    height: 270px;
+    align-content: center;
+    text-align: left;
+    font-size: 16px;
+}
+.contentBox{
+    display: flex;
+    margin-top: 10px;
+    border-bottom: 1px solid #525252;
+}
+.content{
+    width: 925px;
+    height: 270px;
+    border: 1px solid #C2C2C2;
+    box-sizing: border-box; /* 추가 */
+}
+.contentInput{
+    border-radius: 0px;
+    padding-top:6px;
+    padding-left:6px;
+    border:none;
+    width: 100%; 
+    height: 100%; 
+    box-sizing: border-box; 
+}
+.fileBox{
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+}
+.imageWrapper{
+    position: relative;
+    margin-right: 5px;
+}
+.addFileBtn{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #C2C2C2;
+    background-color: #F6F6F6;
+    cursor: pointer;
+}
+.addRuleText{
+    font-size: 16px;
+    margin-left: 5px;
+}
+.previewImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.removeFileBtn{
+    position: absolute;
+    right: 0;
+    top: 0;
+}

@@ -1,0 +1,75 @@
+.menuSection{
+    position: fixed;
+    top: 64px;
+    z-index: 100;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+.box{
+    border-top: 1px solid #EEEEEE;
+}
+.gotoBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size: 18px;
+    font-weight: 600;
+    background:white;
+    border-bottom: 1px solid #EEEEEE;
+    z-index: 1;
+    cursor: pointer;
+}
+.gotoBtn:hover{
+    background-color: #FAFAFA;
+}
+
+.container{
+    padding: 38px 38px;
+    background-color: #FAFAFA;
+}
+.textBox{
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.4;   
+}
+.callName{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+.callNum{
+    font-size: 24px;
+    font-weight: 800;
+    color: black;
+}
+.btnBox{
+    margin-top: 12px;
+    display: flex;
+    gap: 5px;
+}
+.btn{
+    width: 100px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #222222;
+    border: 1px solid #222222;
+    border-radius: 5px;
+}
+.btn:hover{
+    border: 2px solid #B51717;
+    color: #B51717;
+    font-weight: 800;
+}
+.copyright{
+    height: 40px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

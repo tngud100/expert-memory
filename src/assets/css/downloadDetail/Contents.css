@@ -1,0 +1,11 @@
+.wrapper {
+  margin: 61px auto 110px;
+  width: 1360px;
+}
+
+.header {
+  padding: 20px 0;
+  font-size: 32px;
+  font-weight: 700;
+  border-bottom: 5px solid #000;
+}

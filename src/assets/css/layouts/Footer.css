@@ -1,0 +1,87 @@
+.topSideWrapper {
+  border-top: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.topSide {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  width: 1400px;
+  height: 100px;
+  margin: auto;
+}
+
+.topSideList {
+  display: flex;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.topSideList::after {
+  margin-left: 6px;
+  content: "|";
+  font-weight: 400;
+}
+
+.topSideList:last-child:after {
+  content: "";
+}
+
+.personalInfo {
+  font-weight: 600;
+}
+
+.company {
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 13px;
+}
+
+.bottomSideWrapper {
+  font-size: 14px;
+  margin: auto;
+}
+
+.bottomSide {
+  display: flex;
+  align-items: center;
+  width: 1400px;
+  height: 48px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.bottomBox{
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.customerService {
+  font-weight: 600;
+}
+
+.tel {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.copyright {
+  font-size: 13px;
+}
+
+.timeList {
+  display: flex;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.timeItem::after {
+  margin-left: 6px;
+  content: "|";
+}
+
+.timeItem:last-child:after {
+  content: "";
+}

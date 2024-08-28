@@ -1,0 +1,23 @@
+.titleText{
+    padding: 6px;
+    border:1px solid #DCDCDC;
+    padding: 12px;
+    margin: 12px 12px 0px 12px;
+    border-radius: 5px;
+    display: flex;
+}
+.categorySelect{
+    border: 1px solid #DCDCDC;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 14px;
+}
+.titleInput{
+    width: 100%;
+    border: none;
+    font-size: 14px;
+}
+.titleInput:focus{
+    outline: none;
+}

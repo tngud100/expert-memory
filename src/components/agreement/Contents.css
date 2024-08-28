@@ -1,0 +1,85 @@
+.wrapper {
+  padding: 0 278px 100px;
+}
+
+.header {
+  padding: 64px 0 14px;
+  border-bottom: 5px solid #0d0d0d;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.desc {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.checkWrapper {
+  margin-top: 42px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main {
+  padding: 30px 20px;
+}
+
+.agreementWrapper {
+  margin-top: 40px;
+}
+
+.subTitle {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.subDescWrapper {
+  margin-top: 10px;
+  padding: 20px 10px;
+  font-size: 14px;
+  border: 1px solid #6f6f6f;
+  background: #f9f9f9;
+  line-height: 14px;
+}
+
+.subDesc {
+  margin-top: 28px;
+}
+
+.userAgreementLabel {
+  font-size: 14px;
+}
+
+.userAgreementWrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.userAgreementCheckboxWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 97px;
+  display: flex;
+  justify-content: center;
+}
+
+.confirmBtn {
+  padding: 16px 165px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: #111;
+  color: #fff;
+}

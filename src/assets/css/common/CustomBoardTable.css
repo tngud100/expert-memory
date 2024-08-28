@@ -1,0 +1,64 @@
+.tableContainer {
+  /* border-bottom: 1px solid #ccc; */
+  overflow: hidden;
+  background-color: white;
+}
+
+.tableHeader{
+    display: flex;
+    width: 100%; /* header와 body의 너비 일치 */
+    justify-content: center;
+    background-color: #F4F4F4;
+    color: black;
+    align-items: center;
+    height: 40px;
+    font-weight: 500;
+}
+
+.tableHeader > div,
+.tableBody > div {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px; 
+  text-align: center;
+}
+
+.tableBody > div {
+  border-bottom: 1px solid #ccc;
+}
+
+.tableHeader > div:last-child,
+.tableBody > div:last-child {
+  border-right: none;
+}
+.isClicked{
+  font-weight: 500;
+}
+
+.tableRow {
+  display: flex;
+  height: 80px;
+  width: 100%; /* 각 행의 너비 100% */
+  align-items: center;
+  cursor: pointer;
+  background-color: white;
+}
+.tableRow:hover{
+  background-color: #F9FAFC;
+    
+}
+.contentBox{
+  font-size: 16px;
+  text-align: left;
+  border-top: solid 1px #CFCFCF;
+}
+.QnAMark{
+  display: block;
+  font-weight: 900;
+  text-align: center;
+}
+.comment{
+  background-color: #F9FAFC;
+  display: flex;
+}

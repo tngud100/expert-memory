@@ -1,0 +1,104 @@
+.date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.orderInfo{
+    display: flex;
+}
+.applyDate{
+    font-size: 18px;
+    font-weight: bold;
+}
+.changeInfo{
+    font-size: 16px;
+    font-weight: 600;
+}
+.detailOrder{
+    font-size: 18px;
+    font-weight: 600;
+}
+.cardWrapper{
+    border: 1px solid #CFCFCF;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid #CFCFCF;
+}
+.processBox{
+    display: flex;
+    align-items: center;
+
+}
+.upperCard{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: 1px solid #CFCFCF;
+}
+.productBox{
+    display: flex;
+    font-size: 18px;
+    gap: 10px;
+}
+.btnBox{
+    display: grid;
+    gap: 5px;
+    align-items: center;
+}
+.btn{
+    width: 100px;
+    height: 32px;
+    font-size: 14px;
+    border: 1px solid #CFCFCF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infoBox{
+    display: grid;
+    gap: 4px;
+    height: 0px;
+}
+.imgBox{
+    width: 100px;
+    height: 100px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.productName{
+    font-weight: bold;
+}
+.productPrice{
+    font-weight: 600;
+}
+.deliverPrice{
+    font-size: 14px;
+    font-weight: 600;
+    color: red;
+}
+.detailOption{
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 15px;
+    display: grid;
+}
+.OptionBox{
+    display: grid;
+    gap: 4px;
+}
+.option{
+}

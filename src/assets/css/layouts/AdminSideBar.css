@@ -1,0 +1,45 @@
+.container{
+    width: 300px;
+    box-shadow: 2px 0px 6px 0px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+}
+
+.listBox{
+    padding-top: 20px;
+}
+.list{
+    padding: 12px 12px 12px 30px;
+    height: 30px;
+    font-size: 18px;
+    align-items: center;
+    display: flex;
+}
+
+.listdownBox{
+    background-color: #F6F6F6;
+}
+.listdown{
+    padding-left: 30px;
+    font-size: 18px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listdown:hover,.list:hover{
+    background-color: #d2d2d2;
+}
+
+.selectedListdown{
+    font-weight: 700;   
+}
+.selected{
+    background:#e9e9e9;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

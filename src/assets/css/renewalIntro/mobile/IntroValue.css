@@ -1,0 +1,46 @@
+.IntroSection{
+    margin-top: 80px;
+}
+.textWrapper{
+    margin: auto;
+    text-align: center;
+}
+.title{
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.value{
+    font-size: 16px;
+    color: #5F5F5F;
+}
+
+.valueWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 40px auto 120px auto;
+}
+.valueBox{
+    width: calc(100%/2 - 25px);
+    height: calc(100%/2 - 25px);
+    text-align: center;
+    align-content: center;
+}
+.valueImg{
+    width:60px;
+    height:60px;
+    object-fit: cover;
+    margin-bottom:10px;
+}
+.valueTitle{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.valueDesc{
+    font-size: 14px;
+    color: #5F5F5F;
+}

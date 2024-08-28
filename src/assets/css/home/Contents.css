@@ -1,0 +1,73 @@
+.contents {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 121px;
+  gap: 20px 0;
+}
+
+.backgroundWrapper {
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.descWrapper {
+  position: absolute;
+  bottom: 35px;
+  left: 40px;
+}
+
+.nameWrapper {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.nameLabel{
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.14px;
+  text-decoration: underline;
+  text-decoration-color: #575757;
+  text-underline-offset: 5px;
+}
+
+.productBlackName {
+  color: #575757;
+}
+
+.productWhiteName {
+  color: #fff;
+}
+
+.productName{
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+.firstName {
+  color: #373737;
+}
+
+.secondName {
+  color: #512c96;
+}
+
+.thirdName {
+  color: #169882;
+}
+
+.backgroundImgs {
+  width: 100%;
+}
+
+.arrowWrapper {
+  transition: all 0.2s;
+}
+
+/* .backgroundWrapper:hover .arrowWrapper {
+  transform: translateX(50px);
+} */

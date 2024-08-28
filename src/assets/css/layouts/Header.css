@@ -1,0 +1,63 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 60px;
+  border-bottom: 1px solid #b3b3b3;
+  height: 100px;
+}
+
+.sites {
+  display: flex;
+  gap: 10px;
+}
+
+.siteBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  position: absolute;
+  margin: 0 auto;
+  font-size: 32.08px;
+  font-weight: 700;
+  line-height: 100%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.titleLink {
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.titleLink:visited {
+  color: #000;
+}
+
+.searchWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+}
+
+.search {
+  border: none;
+  outline: none;
+}
+
+.searchWrapperBorder {
+  border-bottom: 1px solid #323232;
+}
+
+.etc {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

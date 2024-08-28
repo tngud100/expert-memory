@@ -1,0 +1,19 @@
+.commonBtn {
+  padding: 25px 0;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 5px;
+  border: 1.5px solid #0c0c0c;
+}
+
+.primaryBtn {
+  background-color: #111111;
+  color: #fff;
+}
+
+.secondaryBtn {
+  background-color: #fff;
+  color: #111111;
+}

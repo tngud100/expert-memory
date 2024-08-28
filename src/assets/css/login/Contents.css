@@ -1,0 +1,87 @@
+.wrapper {
+  height: calc(100vh - 329px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+
+.input {
+  width: 449px;
+  font-size: 14px;
+  padding: 16px 10px;
+  border: 1px solid #8c8c8c;
+  border-radius: 5px;
+}
+
+.input + .input {
+  margin-top: 10px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input::placeholder {
+  color: #a4a4a4;
+}
+
+.commonBtn {
+  padding: 15px 0;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.commonBtn + .commonBtn {
+  margin-top: 10px;
+}
+
+.loginBtn {
+  background-color: #000;
+  color: #fff;
+}
+
+.signupBtn {
+  border: 1px solid #8c8c8c;
+  background: #fff;
+  color: #000;
+}
+
+.idSavedCheckBox {
+  margin-right: 6px;
+  width: 18px;
+  height: 18px;
+  accent-color: #2c2c2c;
+}
+
+.infoWrapper {
+  padding: 8px 0 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infoSavedWrapper {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.infoFinder {
+  color: #111;
+  font-size: 13px;
+}

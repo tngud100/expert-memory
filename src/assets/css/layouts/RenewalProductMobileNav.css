@@ -1,0 +1,32 @@
+.nav{
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    height: 60px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    overflow: hidden;
+    padding: 0px 15px;
+}
+.navList{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+.navItem{
+    width: 75px;
+    text-align: center;
+    flex-shrink: 0;
+}
+.iconImg{
+    width: 70px;
+    height: 27px;
+}
+.item{
+    font-size: 16px;
+    font-weight: 500;
+    color: #AFAFAF;
+}

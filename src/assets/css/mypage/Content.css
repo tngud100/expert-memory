@@ -1,0 +1,9 @@
+.container{
+    width: 1360px;
+    margin: auto;
+    display: flex;
+}
+.content{
+    min-height: 500px;
+    margin-bottom: 150px;
+}

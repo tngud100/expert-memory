@@ -1,0 +1,19 @@
+.footer {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.confirmBtn {
+  padding: 16px 110px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid black;
+}
+.confirmBtn:hover {
+  background-color: #111;
+  color: white;
+}

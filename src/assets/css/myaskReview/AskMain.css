@@ -1,0 +1,109 @@
+.noExistBoard{
+    
+}
+.askBoard{
+    width: 1080px;
+}
+.listTitle{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #F6F6F6;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #E1E1E1;
+}
+.list{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    border-bottom: 1px solid #E1E1E1;
+}
+.listAsk{
+    background-color: white;
+}
+.listAskActive{
+    background-color: #F9FAFC;
+}
+.listAsk:hover{
+    background-color: #F9FAFC;
+}
+
+.proccess{
+    width: 120px;
+    text-align: center;
+}
+.title{
+    width: 840px;
+    text-align: center;
+}
+.date{
+    width: 120px;
+    text-align: center;
+}
+.titleText{
+    width: 840px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.askContainer{
+    width: 100%;
+    border-bottom: 1px solid #E1E1E1;
+    min-height: 90px;
+}
+.content{
+    font-size: 14px;
+    padding: 16px;
+    min-height: 50px;
+}
+.ImgAndBtnBox{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.btnBox{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    gap: 5px;
+}
+.contentBtn{
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #B8B8B8;
+    font-size: 14px;
+    align-content: center;
+    text-align: center;
+}
+
+.ansContainer{
+    width: 100%;
+    font-size: 14px;
+    padding: 16px;
+    background-color: #F9FAFC;
+    border-bottom: 1px solid #E1E1E1;
+    min-height: 100px;
+}
+
+.modalContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whiteColor{
+    color: black;
+}
+.redColor{
+    color: red;
+}

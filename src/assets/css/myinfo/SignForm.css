@@ -1,0 +1,163 @@
+.wrapper {
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 230px 850px;
+  grid-template-rows: 80px 80px 80px 80px 80px 1fr;
+}
+
+.line {
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.head {
+  padding: 32px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #f8f8f8;
+}
+
+.data {
+  padding: 15px 30px;
+  display: flex;
+}
+
+.duplicatedBtn {
+  margin-left: 11px;
+}
+
+.warning {
+  margin-left: 6px;
+  font-size: 14px;
+  color: #f00;
+  align-self: center;
+}
+
+.signupBtn {
+  border-radius: 5px;
+  background: #111;
+  padding: 16px 30px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.birthdayLine {
+  display: flex;
+  gap: 10px;
+}
+
+.dropDownWrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  width: 143px;
+  padding: 16px 10px;
+  border-radius: 5px;
+  border: 1px solid #8c8c8c;
+}
+.dropDownOptionBox{
+  position: absolute;
+  display: grid;
+  justify-content: left;
+  align-items: center;
+  height: 150px;
+  background: white;
+  overflow: hidden;
+  top: 47px;
+  left: 0;
+  overflow-y: scroll;
+  border-radius: 5px;
+  border: 1px solid #8c8c8c;
+}
+.optionStyle{
+  width: 131px;
+  padding: 8px;
+}
+.optionStyle:hover{
+  background-color:#d7d7d7;
+}
+
+.email {
+  display: flex;
+  gap: 10px;
+}
+
+.emailAt {
+  margin: 0 5px;
+  font-size: 18px;
+  color: #717171;
+}
+
+.phoneNumberWrapper {
+  padding: 8px 15px 8px 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #8c8c8c;
+  width: 449px;
+}
+
+.phoneNumber {
+  border: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.phoneNumber::placeholder {
+  color: #a4a4a4;
+}
+
+.phoneNumber:focus {
+  outline: none;
+}
+
+.authBtn {
+  padding: 8px 12px;
+  border-radius: 3px;
+  border: 1px solid #8c8c8c;
+  background-color: #fff;
+  flex-shrink: 0;
+  color: #5e5e5e;
+  font-size: 14px;
+}
+
+.verifyNumberWrapper{
+  margin: 0px 15px;
+  padding: 8px 15px 8px 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #8c8c8c;
+  width: 200px;
+}
+
+.verifyBtn{
+  padding: 8px 12px;
+  border-radius: 3px;
+  border: 1px solid #8c8c8c;
+  background-color: #fff;
+  flex-shrink: 0;
+  color: #5e5e5e;
+  font-size: 14px;
+}
+
+.addressWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.address {
+  display: flex;
+  gap: 10px;
+}
+
+.error{
+  font-size: 12px;
+  padding: 12px;
+  color: red;
+  align-content: center;
+}

@@ -1,0 +1,64 @@
+.textWrapper{
+}
+.textBox{
+    text-align: center;
+    background-color: white;
+    margin: 0px auto 0px auto;
+    border-bottom: 1px solid #eeeeee;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.title{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.sloganWrapper{
+    background-image: url("@/assets/images/introBackGround.jpg");
+}
+.sloganBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 50px 0px;
+    overflow: hidden;
+    height: 145px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.slogan{
+    font-size: 30px;
+    font-weight: 800;
+    color: #303030;
+    transition: all 0.2s;
+    opacity: 0;
+    letter-spacing: 10px;
+    /* -webkit-text-stroke: 1px black;  */
+    /* animation: rise 1s ease, changeColor .5s ease-in .5s forwards; 
+    animation-delay: changeColor 0.5s;  */
+}
+
+@keyframes rise{
+    from{
+        transform: translateY(100px) scale(1.2);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px) scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes changeColor {
+  from {
+    color: white;
+    -webkit-text-stroke: 1px black; /* 텍스트의 외곽선을 검정색으로 */
+  }
+  to {
+    color: black;
+    -webkit-text-stroke: 0; /* 외곽선을 제거 */
+  }
+}

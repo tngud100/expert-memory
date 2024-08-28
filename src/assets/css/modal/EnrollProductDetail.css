@@ -1,0 +1,139 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        padding: 8px;
+    margin-top: 12px;
+}
+.textArea{
+    width:450px;
+}
+.textBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 46px;
+        margin: 10px 0px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 10px;
+    width: 110px;
+    text-align: right;
+}
+
+.inputBox {
+    display: flex;
+    align-items: center;
+    border: 1px solid #C5C5C5;
+    font-size: 16px;
+    padding: 4px;
+    width: 360px;
+    height: 35px;
+}
+
+.inputValue {
+    width: 100%;
+    border: 0px;
+    font-size: 16px;
+    padding-left: 6px;
+    background-color: white;
+}
+
+.inputValue:focus {
+    outline: none;
+}
+
+.addCategoryBtn {
+    width: 110px;
+    height: 158px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #616161;
+    background-color: #DADADA;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.addCategoryBtn:hover {
+    background-color: #b7b7b7;
+}
+
+.listBox {
+    width: 560px;
+    height: 200px;
+    font-size: 16px;
+    border: 1px solid #7e7e7e;
+    margin: auto;
+    overflow-y: scroll;
+}
+
+.listCard{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 4px;
+    height: 35px;
+}
+.titleBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 4px;
+    border-bottom: 1px solid #7e7e7e;
+}
+
+.productBox .productName {
+    text-align: center;
+    width:130px;
+    font-size: 16px;
+    background-color: white;
+    font-weight: 600;
+    padding: 6px;
+    margin: 0px 5px;
+}
+.productBox .productPrice {
+    text-align: center;
+    width:90px;
+    font-size: 16px;
+    background-color: white;
+    font-weight: 600;
+    padding: 6px;
+    margin: 0px 5px;
+}
+.productBox .productStock {
+    text-align: center;
+    width:55px;
+    font-size: 16px;
+    background-color: white;
+    font-weight: 600;
+    padding: 6px;
+    margin: 0px 5px;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+}
+
+.editBtn {
+    font-size: 16px;
+    font-weight: 500;
+}
+.hidden {
+    display: none;
+};

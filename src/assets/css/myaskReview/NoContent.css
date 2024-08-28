@@ -1,0 +1,13 @@
+.noContentWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    min-height: 500px;
+}
+.text{
+    font-size: 18px;
+    color: #737373;
+}

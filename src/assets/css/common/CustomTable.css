@@ -1,0 +1,55 @@
+.tableContainer {
+  overflow: hidden;
+  background-color: white;
+}
+
+.tableHeader{
+    display: flex;
+    width: 100%; /* header와 body의 너비 일치 */
+    background-color: #4E4E4E;
+    color: white;
+    align-items: center;
+    height: 40px;
+}
+
+.tableHeader > div,
+.tableBody > div {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px; 
+  text-align: center;
+}
+
+.tableBody > div {
+}
+
+.tableHeader > div:last-child,
+.tableBody > div:last-child {
+  border-right: none;
+}
+
+.tableRow {
+    display: flex;
+    min-height: 70px;
+    width: 100%; /* 각 행의 너비 100% */
+    align-items: center;
+    cursor: pointer;
+}
+
+.tableRow > div {
+  font-size: 14px; 
+  min-height: 70px;
+  border: 1px solid #ddd;
+  text-align: center;
+  text-wrap: balance;
+  align-content: center;
+}
+
+.tableRow > div:last-child {
+  border-right: none;
+}
+
+.tableRow > div:first-child {
+  border-left: none;
+}

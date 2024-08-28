@@ -1,0 +1,29 @@
+.titleBox{
+    text-align: center;
+    margin: 50px auto 20px auto;
+}
+.title{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.nav{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+}
+.navList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
+}
+.navItem{
+    font-size: 16px;
+    color: #AFAFAF;
+}

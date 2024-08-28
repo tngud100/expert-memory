@@ -1,0 +1,51 @@
+.mypageMenu{
+    position: sticky;
+}
+.menuContiner{
+    width: 180px;
+    border: 1px solid hsl(0, 0%, 82%);
+    margin-right: 60px;
+    padding: 30px 20px;
+}
+.menuBox{
+}
+.menuTitle{
+    padding:2px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.menuItem{
+    font-size: 14px;
+    line-height: 18px;
+    margin: 2px 0px;
+}
+.listItem{
+    cursor: pointer;
+}
+.divideLine{
+    width: 180px;
+    height: 1px;
+    background-color: #E0E0E0;
+    margin: 20px 0px;
+}
+
+.info{
+    line-height: 20px;
+}
+.centerName{
+    font-weight: bold;
+    font-size: 14px;
+}
+.phoneNum{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 8px 0px;
+}
+.time{
+    font-size: 14px;
+}
+.dayOff{
+    font-size: 14px;
+    color: #E80303;
+}

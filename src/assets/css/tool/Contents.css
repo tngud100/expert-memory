@@ -1,0 +1,9 @@
+.wrapper {
+  padding-bottom: 189px;
+}
+
+.productList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

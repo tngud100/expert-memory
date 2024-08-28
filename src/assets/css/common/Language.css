@@ -1,0 +1,26 @@
+.wrapper {
+  background-image: url("@/assets/images/languageWrapper.svg");
+  width: 55px;
+  height: 24px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.world {
+  background-image: url("@/assets/images/world.svg");
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+}
+
+.language {
+  background-position: center;
+  width: 18px;
+  height: 15px;
+  top: 9px;
+  background-repeat: no-repeat;
+  transition: background-image 0.1s;
+}

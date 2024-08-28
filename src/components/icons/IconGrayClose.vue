@@ -1,0 +1,22 @@
+<template>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+  >
+    <path
+      d="M15 1L1 15"
+      stroke="#BABABA"
+      stroke-width="1.2"
+      stroke-linecap="round"
+    />
+    <path
+      d="M15 15L1 1"
+      stroke="#BABABA"
+      stroke-width="1.2"
+      stroke-linecap="round"
+    />
+  </svg>
+</template>

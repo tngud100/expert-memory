@@ -1,0 +1,52 @@
+.myPageHeader{
+    width: 100%;
+    height: 200px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.boxContainer{
+    width: 1360px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nameBox{
+    background-color: white;
+    width:calc(60% - 4px);
+    height: 100%;
+    font-size: 22px;
+    padding-left: 20px;
+    text-align: left;
+    align-content: center;
+    margin-right: 5px;
+}
+.dataBox{
+    width: calc(40% / 3 - 4px);
+    height: 100%;
+    background-color: white;
+    align-content: center;
+    text-align: center;
+    margin-right: 5px;
+}
+.nameBox > .name{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.dataBox > .dataName{
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.dataBox > .dataValue{
+    display: block;
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+}

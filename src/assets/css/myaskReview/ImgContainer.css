@@ -1,0 +1,22 @@
+.fileBox{
+    display: flex;
+    align-items: center;
+}
+
+.addFileBtn{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    border: 1px solid #C2C2C2;
+    background-color: #F6F6F6;
+}
+
+.previewImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.swiperText{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px 20px 15px;
+}
+.textBox{
+    align-content: center;
+}
+.text{
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.2;
+    transition: all .5s linear;
+}

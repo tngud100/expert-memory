@@ -1,0 +1,96 @@
+.textBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 590px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.inputBox {
+    display: flex;
+    align-items: center;
+    border: 1px solid #C5C5C5;
+    font-size: 16px;
+    padding: 4px;
+    width: 360px;
+    height: 35px;
+}
+
+.inputValue {
+    width: 100%;
+    border: 0px;
+    font-size: 16px;
+    padding-left: 6px;
+    background-color: white;
+}
+
+.inputValue:focus {
+    outline: none;
+}
+
+.addCategoryBtn {
+    width: 100px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #616161;
+    background-color: #DADADA;
+    font-size: 16px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.addCategoryBtn:hover {
+    background-color: #b7b7b7;
+}
+
+.listBox {
+    width: 550px;
+    height: 260px;
+    font-size: 16px;
+    border: 1px solid #7e7e7e;
+    margin: auto;
+    overflow-y: scroll;
+}
+
+.categoryBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 4px;
+    border-bottom: 1px solid #7e7e7e;
+}
+
+.categoryBox .categoryName {
+    font-size: 16px;
+    background-color: white;
+    font-weight: 600;
+    padding: 6px;
+    cursor: pointer;
+}
+.categoryName:focus{
+    outline: none;
+}
+.categoryName:hover{
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+}
+
+.editBtn {
+    font-size: 16px;
+    font-weight: 500;
+}

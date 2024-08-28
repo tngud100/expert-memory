@@ -1,0 +1,92 @@
+.textBox{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.optionName{
+    text-align: right;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    width: 70px;
+}
+
+.optionValue{
+    border: 0px;
+    width: 80%;
+    font-size: 16px;
+    padding-left: 6px;
+    background-color: white;
+}
+.optionValue:focus{
+    outline: none;
+}
+
+.uploadBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #C5C5C5;
+    font-size: 16px;
+    padding: 4px;
+    width: 480px;
+    height: 35px;
+}
+
+.chooseImgBtn{
+    width: 50px;
+    border-radius: 50px;
+    background-color: #e9e9e9;
+    text-align: center;
+    align-self: center;
+    padding: 7px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.uploadList{
+    border: 1px solid #C5C5C5;
+    font-size: 16px;
+    padding: 4px;
+    width: 480px;
+}
+
+.listBox{
+    padding-bottom: 6px;
+    border-bottom: 1px solid #3f3f3f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2px;
+}
+.listMenu{
+    margin-top: 6px;
+    max-height: 75px;
+    overflow-y: scroll;
+}
+.list{
+    font-size: 16px;
+    font-weight: 500;
+    padding:4px;
+    display: flex;
+    justify-content: space-between;
+}
+.deleteBtn{
+    cursor: pointer;
+}
+.submit{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.submitBtn{
+    width: 70px;
+    height: 30px;
+    background-color: #d9d9d9;
+    border-radius: 3.5px;
+    margin: 4px;
+}
