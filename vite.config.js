@@ -4,13 +4,18 @@ import path from 'path';
 // import { readFileSync } from 'fs';
 import ckeditor5 from '@ckeditor/vite-plugin-ckeditor5';
 import { createRequire } from 'node:module';
+import eslint from 'vite-plugin-eslint';
+
 const require = createRequire(import.meta.url);
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     vue(),
-     ckeditor5({ theme: require.resolve('@ckeditor/ckeditor5-theme-lark') })
+    ckeditor5({ theme: require.resolve('@ckeditor/ckeditor5-theme-lark') }),
+    eslint({
+      include: ['src/**/*.js', 'src/**/*.vue'], // Linting을 적용할 파일들
+    }),
   ],
   resolve: {
     alias: [
