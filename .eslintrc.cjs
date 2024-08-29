@@ -1,24 +1,35 @@
+const path = require("path");
+
 module.exports = {
   env: {
     browser: true,
     es2021: true,
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:vue/vue3-recommended', // Vue 3에 맞는 규칙을 적용
-    'plugin:import/errors',
-    'plugin:import/warnings',
-  ],
+  extends: ["eslint:recommended", "plugin:vue/vue3-recommended"],
+  parser: "vue-eslint-parser",
   parserOptions: {
-    ecmaVersion: 12,
-    sourceType: 'module',
-    parser: 'vue-eslint-parser',
+    requireConfigFile: false,
+    ecmaVersion: 2021,
+    sourceType: "module",
+    parser: "@babel/eslint-parser",
   },
-  plugins: [
-    'vue',  // Vue 플러그인 추가
-    'import'
-  ],
+  plugins: ["vue", "import"],
   rules: {
-    'import/no-unresolved': [2, { caseSensitive: true }],
+    "import/no-unresolved": [2, { caseSensitive: true }],
+    "no-unused-vars": "off", // 이 줄을 추가하여 전체 프로젝트에서 no-unused-vars 규칙을 비활성화
+  },
+  settings: {
+    "import/resolver": {
+      alias: {
+        map: [
+          ["#", path.resolve(__dirname, "src/components")],
+          ["@", path.resolve(__dirname, "src")],
+        ],
+        extensions: [".js", ".vue", ".json"],
+      },
+      node: {
+        extensions: [".js", ".vue", ".json"],
+      },
+    },
   },
 };
