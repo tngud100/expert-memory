@@ -17,9 +17,9 @@ export default defineConfig({
   plugins: [
     vue(),
     ckeditor5({ theme: require.resolve("@ckeditor/ckeditor5-theme-lark") }),
-    eslint({
-      include: ["src/**/*.js", "src/**/*.vue"], // Linting을 적용할 파일들
-    }),
+    // eslint({
+    //   include: ["src/**/*.js", "src/**/*.vue"], // Linting을 적용할 파일들
+    // }),
   ],
   resolve: {
     alias: [
