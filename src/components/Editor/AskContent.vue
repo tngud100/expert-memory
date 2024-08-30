@@ -29,4 +29,4 @@ watch(
 );
 </script>
 
-<style src="@/assets/css/Editor/AskContent.css" module></style>
+<style src="@/assets/css/editor/AskContent.css" module></style>

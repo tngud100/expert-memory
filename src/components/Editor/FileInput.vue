@@ -73,4 +73,4 @@ watch(
 );
 </script>
 
-<style src="@/assets/css/Editor/FileInput.css" module></style>
+<style src="@/assets/css/editor/FileInput.css" module></style>
