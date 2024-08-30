@@ -56,4 +56,4 @@ watch(
 );
 </script>
 
-<style src="@/assets/css/Editor/Title.css" module></style>
+<style src="@/assets/css/editor/Title.css" module></style>
