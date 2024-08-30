@@ -51,9 +51,9 @@ import Editor from "#/Editor/Contents.vue";
 import AskEditor from "#/Editor/AskContent.vue";
 import File from "#/Editor/FileInput.vue";
 import Close from "#/icons/IconClose.vue";
-import { boardPostAPI } from "@/api/boardPostDataAPI.js";
-import { boardGetDataAPI } from "@/api/boardGetDataAPI.js";
-import { boardPutDataAPI } from "@/api/boardPutDataAPI.js";
+import { boardPostAPI } from "@/api/BoardPostDataAPI.js";
+import { boardGetDataAPI } from "@/api/BoardGetDataAPI.js";
+import { boardPutDataAPI } from "@/api/BoardPutDataAPI.js";
 import { computed, onMounted, reactive, ref } from "vue";
 import axios from "@/utils/axiosInstance.js";
 

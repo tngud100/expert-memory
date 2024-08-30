@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-import BoardList from "#/adminBoard/boardList.vue";
+import BoardList from "#/adminBoard/BoardList.vue";
 import { boardGetDataAPI } from "@/api/BoardGetDataAPI.js";
 import { boardDeleteDataAPI } from "@/api/BoardDeleteDataAPI.js";
 import { onMounted, ref } from "vue";

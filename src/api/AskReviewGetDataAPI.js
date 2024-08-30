@@ -11,7 +11,7 @@ const backendCall = (url) => {
     // return `https://dik58thfdw586.cloudfront.net${url}`
 };
 
-export const AskAPI = () => { 
+export const AskAPI = () => {
 
     const getAskListAll = async () => {
         return await instance.get('/inquire/get/all')
@@ -25,19 +25,19 @@ export const AskAPI = () => {
 
     const getAskListByMemberId = async (memberId) => {
         return await instance.get(`/inquire/get/memberNum/${memberId}`)
-        .then((res) => {
-            return res.data;
-        })
-        .catch((err) => {
-            return err;
-        });
+            .then((res) => {
+                return res.data;
+            })
+            .catch((err) => {
+                return err;
+            });
     }
     const getAskByInquireId = async (inquiresId) => {
         return await instance.get(`/inquire/get/inquireNum/${inquiresId}`)
             .then((res) => {
                 const form = {
-                    inquireType : res.data.inquire.inquire_type,
-                    title : res.data.inquire.title,
+                    inquireType: res.data.inquire.inquire_type,
+                    title: res.data.inquire.title,
                     content: res.data.inquire.content,
                     images: res.data.images.map((img) => {
                         return {
@@ -46,11 +46,11 @@ export const AskAPI = () => {
                         }
                     }),
                 }
-            return form;
-        })
-        .catch((err) => {
-            return err;
-        });
+                return form;
+            })
+            .catch((err) => {
+                return err;
+            });
     }
 
     ///// 등록
@@ -60,12 +60,12 @@ export const AskAPI = () => {
                 'Content-Type': 'multipart/form-data'
             }
         })
-        .then((res) => {
-            return res.data;
-        })
-        .catch((err) => {
-            return err;
-        });
+            .then((res) => {
+                return res.data;
+            })
+            .catch((err) => {
+                return err;
+            });
     }
     const enrollAskPictures = async (imgFiles) => {
         return await instance.post('/inquire/pictures/enroll', imgFiles, {
@@ -73,27 +73,28 @@ export const AskAPI = () => {
                 'Content-Type': 'multipart/form-data'
             }
         })
-        .then((res) => {
-            return res.data;
-        })
-        .catch((err) => {
-            return err;
-        });
+            .then((res) => {
+                return res.data;
+            })
+            .catch((err) => {
+                return err;
+            });
     }
     const enrollAskComment = async (admin_id, inquire_id, comments) => {
         return await instance.post(`/inquire/comments/enroll/${inquire_id}`, null, {
-            params:{
-                member_id : admin_id,
-                inquire_id : inquire_id,
-                comments : comments
-            }}
+                params: {
+                    member_id: admin_id,
+                    inquire_id: inquire_id,
+                    comments: comments
+                }
+            }
         )
-        .then((res) => {
-            return res.data;
-        })
-        .catch((err) => {
-            return err;
-        });
+            .then((res) => {
+                return res.data;
+            })
+            .catch((err) => {
+                return err;
+            });
     }
 
     const updateAsk = async (formData, inquires_id) => {
@@ -102,12 +103,12 @@ export const AskAPI = () => {
                 'Content-Type': 'multipart/form-data'
             }
         })
-        .then((res) => {
-            return res.data;
-        })
-        .catch((err) => {
-            return err;
-        });
+            .then((res) => {
+                return res.data;
+            })
+            .catch((err) => {
+                return err;
+            });
     }
 
     const updateAskPictures = async (formData, inquires_id) => {
@@ -116,36 +117,37 @@ export const AskAPI = () => {
                 'Content-Type': 'multipart/form-data'
             }
         })
-        .then((res) => {
-            return res.data;
-        })
-        .catch((err) => {
-            return err;
-        });
+            .then((res) => {
+                return res.data;
+            })
+            .catch((err) => {
+                return err;
+            });
     }
     const updateAskComment = async (inquire_id, comments) => {
         return await instance.put(`/inquire/comments/update/${inquire_id}`, null, {
-            params:{
-                inquire_id : inquire_id,
-                comments : comments
-            }}
+                params: {
+                    inquire_id: inquire_id,
+                    comments: comments
+                }
+            }
         )
-        .then((res) => {
-            return res.data;
-        })
-        .catch((err) => {
-            return err;
-        });
+            .then((res) => {
+                return res.data;
+            })
+            .catch((err) => {
+                return err;
+            });
     }
 
     const deleteAsk = async (inquires_id) => {
         return await instance.delete(`/inquire/delete/${inquires_id}`)
-        .then((res) => {
-            return res.data;
-        })
-        .catch((err) => {
-            return err;
-        });
+            .then((res) => {
+                return res.data;
+            })
+            .catch((err) => {
+                return err;
+            });
     }
 
     return {
