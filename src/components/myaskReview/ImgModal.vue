@@ -31,10 +31,10 @@ const props = defineProps({
 
 // const baseUrl = props.imgFile.preview.split("images\\")[0]; // 클라이언트 측에서 이미지 파일 이름에서 슬래시를 제거하는 부분입니다.
 const imgName = props.imgFile.preview.split("images\\")[1]; // 클라이언트 측에서 이미지 파일 이름에서 슬래시를 제거하는 부분입니다.
-const baseUrl = "http://localhost:8080/api/inquire/download";
+// const baseUrl = "http://localhost:8080/api/inquire/download";
 // const baseUrl =
 //   "https://KeyboardBack-env.eba-xmfhb4un.ap-northeast-2.elasticbeanstalk.com/api/inquire/download";
-// const baseUrl = "https://dik58thfdw586.cloudfront.net/api/inquire/download";
+const baseUrl = "https://dik58thfdw586.cloudfront.net/api/inquire/download";
 
 const downloadUrl = computed(() => {
   return `${baseUrl}/${imgName}`;

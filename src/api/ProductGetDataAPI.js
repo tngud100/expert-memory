@@ -10,13 +10,13 @@ export const getProductAPI = () => {
 
     const backendCall = (url) => {
         if (Array.isArray(url)) {
-            return url.map(url => `http://localhost:8080${url.trim()}`);
+            // return url.map(url => `http://localhost:8080${url.trim()}`);
             // return url.map(url => `https://KeyboardBack-env.eba-xmfhb4un.ap-northeast-2.elasticbeanstalk.com${url.trim()}`);
-            // return url.map(url => `https://dik58thfdw586.cloudfront.net${url.trim()}`);
+            return url.map(url => `https://dik58thfdw586.cloudfront.net${url.trim()}`);
         }
-        return `http://localhost:8080${url}`
+        // return `http://localhost:8080${url}`
         // return `https://KeyboardBack-env.eba-xmfhb4un.ap-northeast-2.elasticbeanstalk.com${url}`
-        // return `https://dik58thfdw586.cloudfront.net${url}`
+        return `https://dik58thfdw586.cloudfront.net${url}`
     };
 
     const logicCheck = (state) => {
